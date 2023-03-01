@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite for Online Currency Exchange application" parallel="false" thread-count="1">
+
+    <test name="Currency Exchange Tests">
+        <packages>
+            <package name="lt.currencyExchange.tests.*"/>
+        </packages>
+    </test>
+
+</suite>
